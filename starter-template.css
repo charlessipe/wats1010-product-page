@@ -1,0 +1,83 @@
+body {
+  background-color: rgb(235,235,235);
+}
+
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+nav-row {
+  position: relative;
+}
+
+.nav-menu {
+  background-color: rgb(44,55,59);
+  color: white;
+}
+ 
+.navbtn {
+  position: absolute;
+  right: 10px;
+  top: 20px;
+}
+
+.navbtn2 {
+  position: absolute;
+  right: 100px;
+  top: 20px;
+}
+
+.sub-menu {
+  height: 80px;
+  background-color: rgb(235,235,235);
+}
+
+.page-title {
+  background-color: rgb(102,143,186);
+}
+
+.sub-menu-links {
+  padding: 30px;
+  text-transform: uppercase;
+}
+
+.content-row {
+  background-color: rgb(235,235,235);
+}
+
+/* Main Content classes */
+
+.about {
+  background-color: white;
+}
+
+.testimonials {
+  background-color: white;
+}
+
+/* Sidebar classes */
+
+.creator {
+  background-color: white;
+}
+
+.features {
+  background-color: white;
+}
+
+.resources {
+  background-color: white;
+}
+
+/* Footer classes */
+
+.main-footer {
+  background-color: rgb(44,55,59);
+  color: white;
+}
+
+.sub-footer {
+  background-color: rgb(32,40,41);
+  color: white;
+}

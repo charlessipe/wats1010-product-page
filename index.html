@@ -1,54 +1,167 @@
-<!doctype html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- TODO: Add proper head tag to provide a page description for search
-             engines. -->
-        <title>API Superstore</title>
-        <!-- Bootstrap CSS Framework -->
-        <!-- You can remove the ``link`` tags below if you don't want to use
-             Bootstrap with your site. If you choose to use Bootstrap, be sure
-             to reference the resources and the Bootstrap official
-             documentation: http://getbootstrap.com.
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
 
-             Please Note: This repo does not include the Bootstrap Javascript
-             plugins, so you cannot use the features documented under
-             "Javascript" on the Bootstrap documentation site. -->
-        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
-        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-theme.css">
-        <!-- End Bootstrap CSS Framework -->
+    <title>API Superstore</title>
 
-        <!-- TODO: replace favicon, apple-touch-icon, and tile images to best
-             support bookmarking. -->
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <link rel="favicon" href="favicon.ico">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    
+    <!-- Bootstrap core CSS -->
+    <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
 
-    </head>
-    <body>
-        <!-- Note: If you do not see a lamp icon in the heading below
-             when you view this file in a web browser, then there is an issue
-             with how Bootstrap is linked to this page. -->
-        <h1><span class="glyphicon glyphicon-lamp"></span> Hello World!</h1>
-        <!-- TODO: Populate this page with all the content you deem
-             necessary to create a compelling product page! -->
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
 
-        <!-- TODO: Create an area to put the explainer video. -->
+    <!-- Custom styles for this template -->
+    <link href="starter-template.css" rel="stylesheet">
 
-        <!-- TODO: Create an area to put the long product description. -->
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
 
-        <!-- TODO: Create an area to put customer testimonials. -->
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
 
-        <!-- TODO: Create an area to show features. -->
+  <body>
+    <!--
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Project name</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    -->
+    
+    
+      <div class="nav-row row">
+        <div class="nav-menu col-sm-12">      
+        <h1>API Superstore</h1>
+        <a class="navbtn btn btn-default" href="#" role="button">Register</a>
+        <a class="navbtn2 btn btn-default" href="#" role="button">Login</a>
+        </div>
+      </div>
+    
+      
+      <div class="row">
+        <div class="sub-menu col-sm-12">      
+          <ul class="sub-menu-links list-inline">
+            <li>About</li>
+            <li>Overview</li>
+            <li>Features</li>
+            <li>Testimonials</li>
+            <li>Contact Us</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="page-title col-sm-12">      
+          <h2>
+            Google Places API
+          </h2>
+        </div>
+      </div>
+      
+      <div class="container">
+      <div class="content-row row">
+        <div class="main-content col-sm-8"> 
+          <div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/L48g1ZWLMdo?rel=0" frameborder="0" allowfullscreen></iframe>
+          </div>
+          <div class="about">
+            <h2>About</h2>
+            <p>The Google Places API provides information about 100 milliion places across the Google Maps database such as reviews, addresses, and ratings.</p>
+          </div>
+          <div class="testimonials">
+            <h2>Testimonials</h2>
+            <img src="assets/misc/russell-wilson.png" width="120"><p>"Google's API provides information for about 100 million places including views and ratings."</p>
+            <img src="assets/misc/charles-sipe.jpg" width="120"><p>"Google's API provides information for about 100 million places including views and ratings."</p>
+          </div>
+        </div>
+        <div class="sidebar-content col-sm-4">      
+          <button type="button" class="btn btn-primary">Free</button>
+          <button type="button" class="btn btn-success">Download</button>
+          <div class="creator">
+            <h2>API Creator</h2>
+            <p>The Google Places API provides information about 100 milliion places across the Google Maps database such as reviews, addresses, and ratings.</p>
+          </div>
+          <div class="features">
+            <h2>Features</h2>
+            <p><span class="glyphicon glyphicon-search" aria-hidden="true"></span> The Google Places API provides information about 100 milliion places across the Google Maps database such as reviews, addresses, and ratings.</p>
+          </div>
+          <div class="resources">
+            <h2>Additional Resources</h2>
+            <p>The Google Places API provides information about 100 milliion places across the Google Maps database such as reviews, addresses, and ratings.</p>
+          </div>
+        </div>
+      </div>
+      <div class="content-row row">
+        <h2>Websites Using Google Places API</h2>
+      </div>
+      </div>  
+    
+      <footer class="row">
+        <div class="main-footer row">
+        <h2>Main Footer</h2>
+        <a href="https://en.wikipedia.org/wiki/Russell_Wilson#/media/File:Russell_Wilson_at_Seahawks_vs_Redskins_on_October_6,_2014.png">Image credit</a>
+        </div>
+        <div class="sub-footer row">
+        <p>Website by Charles Sipe for the Seattle University Web Development Certificate</p>
+        </div>
+      </footer>
+ 
+       
+    </div>
+    
+    <!--
+    <div class="container">
 
-        <!-- TODO: Create an area to show company contact info (phone,
-             location, etc.) -->
+      <div class="starter-template">
+        <h1>Bootstrap starter template</h1>
+        <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
+      </div>
 
-        <!-- TODO: Create an area that allows users to Share links to the
-             page. -->
+    </div><!-- /.container -->
 
-        <!-- TODO: Create a call to action link to get users to sign up for the
-             service. -->
-    </body>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
 </html>
+
+
