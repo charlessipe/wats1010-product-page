@@ -25,12 +25,14 @@ nav-row {
   position: absolute;
   right: 10px;
   top: 20px;
+  border: none;
 }
 
 .navbtn2 {
   position: absolute;
-  right: 100px;
+  right: 110px;
   top: 20px;
+  border: none;
 }
 
 .sub-menu {
@@ -40,9 +42,7 @@ nav-row {
 }
 
 .page-title {
-  background-color: rgb(102,143,186);
-  background-color: red;
-  background-image: url("assets/misc/eight_horns.png");
+  background-image: url("assets/misc/symphony.png");
   height: 80px;
   padding: 10px;
   padding-left: 30px;
@@ -70,18 +70,45 @@ nav-row {
   background-color: white;
   padding: 10px;
   margin: 10px;
+  box-shadow: 2px 2px 2px #888888;
 }
 
 .about {
   background-color: white;
   padding: 10px;
   margin: 10px;
+  box-shadow: 2px 2px 2px #888888;
 }
 
 .testimonials {
   background-color: white;
   padding: 10px;
   margin: 10px;
+  box-shadow: 2px 2px 2px #888888;
+}
+
+.testimonials p {
+  height: 130px;
+  margin: 10px;
+}
+
+.testimonials img {
+  float: left;
+  box-shadow: 2px 2px 2px #888888;
+}
+
+.contact-us {
+  background-color: white;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 2px 2px 2px #888888;
+}
+
+.examples {
+  background-image: url("assets/misc/ignasi-pattern.png");
+  padding: 10px;
+  margin: 10px;
+  border: 10px solid white;
 }
 
 /* Sidebar classes */
@@ -92,6 +119,7 @@ nav-row {
   text-transform: uppercase;
   background-color: rgb(44,55,59);
   color: white;
+  border: none;
 }
 
 .sidebar-button2 {
@@ -100,6 +128,7 @@ nav-row {
   text-transform: uppercase;
   background-color: rgb(0,199,228);
   color: white;
+  border: none;
 }
 
 .creator {
@@ -139,6 +168,10 @@ nav-row {
   background-color: rgb(44,55,59);
   color: white;
   padding: 20px 50px;
+}
+
+.main-footer ul li {
+  list-style-type: none;
 }
 
 .sub-footer {

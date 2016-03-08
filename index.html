@@ -62,8 +62,8 @@
       <div class="nav-row row">
         <div class="nav-menu col-sm-12">      
         <img src="assets/logos/api_superstore_sqlogo_bg.png" width="75px" height="75px">
-        <a class="navbtn btn btn-default" href="#" role="button">Register</a>
-        <a class="navbtn2 btn btn-default" href="#" role="button">Login</a>
+        <a class="sidebar-button navbtn btn btn-default" href="#" role="button">Register</a>
+        <a class="sidebar-button2 navbtn2 btn btn-default" href="#" role="button">Login</a>
         </div>
       </div>
     
@@ -71,11 +71,11 @@
       <div class="row">
         <div class="sub-menu col-sm-12">      
           <ul class="sub-menu-links list-inline">
-            <li><a href="">About</a></li>
-            <li><a href="">Overview</a></li>
-            <li><a href="">Features</a></li>
-            <li><a href="">Testimonials</a></li>
-            <li><a href="">Contact Us</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#overview">Overview</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact-us">Contact Us</a></li>
           </ul>
         </div>
       </div>
@@ -92,31 +92,47 @@
       <div class="content-row row">
         <div class="main-content col-sm-8"> 
           <div class="video">
+            <h2>Overview</h2>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/L48g1ZWLMdo?rel=0" frameborder="0" allowfullscreen></iframe>
           </div>
-          <div class="about">
+          <div id="about" class="about">
             <h2>About</h2>
-            <p>The Google Places API provides information about 100 milliion places across the Google Maps database such as reviews, addresses, and ratings.</p>
+            <p>The Google Places API provides information about 100 milliion places across the Google Maps database such as reviews, addresses, and ratings. Users can search for places based on their current location or by entering a location. You can also get review and rating data for a list of businesses.</p>
           </div>
-          <div class="testimonials">
+          <div id="testimonials" class="testimonials">
             <h2>Testimonials</h2>
-            <img class="img-circle" src="assets/misc/russell-wilson.png" width="120"><p>"Google's API provides information for about 100 million places including views and ratings."</p>
-            <img class="img-circle" src="assets/misc/charles-sipe.jpg" width="120"><p>"Google's API provides information for about 100 million places including views and ratings."</p>
+            <img class="img-circle" src="assets/misc/russell-wilson.png" width="120"><p>"As a starting quarterback of a top team, I am constantly traveling on business trips to other team's stadiums. Google Places allows me to find good restaurants near my hotel so I know where I can some Recovery Water."</p>
+            <img class="img-circle" src="assets/misc/charles-sipe.jpg" width="120"><p>"Google's Places API allows me to show the latest testimonials from happy customers who are rating my business. The recommendations of these customers give visitors to my website confidence that their money will be well spent."</p>
+          </div>
+          <div id="contact-us" class="contact-us">
+            <h2>Contact Us</h2>
+            <div class="input-group">
+              <div class="form-group"> 
+                <div class="input-group">
+                  <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                  <input name="name" placeholder="Name" class="form-control" type="text">
+                  <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+                  <input name="email" placeholder="Email" class="form-control" type="text">
+                </div>
+              </div> <!-- End form group -->
+              <button type="submit" class="btn btn-warning" >Send <span class="glyphicon glyphicon-send"></span></button>
+            </div> <!-- End input group -->
+        
           </div>
         </div>
         <div class="sidebar-content col-sm-4">      
-          <button class="sidebar-button" type="button" class="btn btn-primary">Free</button><br>
-          <button class="sidebar-button2" type="button" class="btn btn-success">Download</button>
+          <a class="sidebar-button btn btn-default" href="#" role="button">Free</a><br>
+          <a class="sidebar-button2 btn btn-default" href="#" role="button">Download</a>
           <div class="creator">
             <h2>API Creator</h2>
             <img class="website-logo" src="assets/logos/google-square-logo.png" width="120">
-            <p>The Google Places API provides information about 100 milliion places across the Google Maps database such as reviews, addresses, and ratings.</p>
+            <p>Google is the leading search engine in the world and provides their employees with amazing perks in exchange for never leaving the Google campus.</p>
           </div>
-          <div class="features">
+          <div id="features" class="features">
             <h2>Features</h2>
-            <p><span class="glyphicon glyphicon-search" aria-hidden="true"></span> The Google Places API provides information about 100 milliion places across the Google Maps database such as reviews, addresses, and ratings.</p>
-            <p><span class="glyphicon glyphicon-search" aria-hidden="true"></span> The Google Places API provides information about 100 milliion places across the Google Maps database such as reviews, addresses, and ratings.</p>
-            <p><span class="glyphicon glyphicon-search" aria-hidden="true"></span> The Google Places API provides information about 100 milliion places across the Google Maps database such as reviews, addresses, and ratings.</p>
+            <p><span class="glyphicon glyphicon-certificate" aria-hidden="true"></span> Show the average rating for a business with star icons.</p>
+            <p><span class="glyphicon glyphicon-certificate" aria-hidden="true"></span> Show reviews written by past customers who have visited your business.</p>
+            <p><span class="glyphicon glyphicon-certificate" aria-hidden="true"></span> Works with Android, iOS, and JavaScript.</p>
           </div>
           <div class="resources">
             <h2>Additional Resources</h2>
@@ -125,7 +141,7 @@
           </div>
         </div>
       </div>
-      <div class="content-row row">
+      <div class="examples content-row row">
         <h2>Websites Using Google Places API</h2>
         <div class="website-logo-group">
           <img class="website-logo" src="assets/logos/google-square-logo.png" width="120">
@@ -138,8 +154,28 @@
     
       <footer class="row">
         <div class="main-footer row">
-        <h2>Main Footer</h2>
-        <a href="https://en.wikipedia.org/wiki/Russell_Wilson#/media/File:Russell_Wilson_at_Seahawks_vs_Redskins_on_October_6,_2014.png">Image credit</a>
+          <div class="col-sm-4">
+            <h2>Contact Information</h2>
+            <ul>
+              <li>111 Pike St.</li>
+              <li>Seattle, WA, 98003</li>
+              <li>206-111-1111</li>
+              <li>info@apisuperstore.com</li>
+            </ul>
+          </div>
+          <div class="col-sm-4">
+            <h2>About Us</h2>
+            <ul>
+              <li><a href="">Job Openings</a></li>
+              <li><a href="">Contact Us</a></li>
+              <li><a href="">Privacy Policy</a></li>
+              <li><a href="">Store</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-4">
+            <h2>More Information</h2>
+            <p>If you like this API, be sure to check out our entire selection of 1,500 other APIs here at the store. If you have any questions, don't hesitate to give us a call.</p>
+          </div>
         </div>
         <div class="sub-footer row">
         <p>Website by Charles Sipe for the Seattle University Web Development Certificate</p>
